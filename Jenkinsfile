@@ -19,9 +19,9 @@ pipeline {
 
 
     environment{
-        name: 'DEPLOY_TO', value: 'production'
-        name: 'GREETING', value: 'Good Morning'
-    }  
+        DEPLOY_TO =  'production'
+        GREETING = 'Good Morning'
+    }
 
 
     
